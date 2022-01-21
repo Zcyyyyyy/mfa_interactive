@@ -1,7 +1,7 @@
 body {
       font-family:  sans-serif;
       line-height: 1.5em;
-      background-color: white;  
+      background-color: rgb(3, 3, 3);  
     }
     .main {
       width: 50%;
@@ -19,12 +19,12 @@ body {
 
     a {
       font-weight: bold;
-      color: #0000ff;
+      color: #ffe600f6;
       text-decoration: none;
     }
 
     a:hover {
-      background-color: #0000ff;
+      background-color: #00c3ff;
     }
 
     ul {
