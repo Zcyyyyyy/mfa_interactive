@@ -1,0 +1,90 @@
+body{
+    background-color: lightblue;
+    animation: body 30s alternate infinite linear;
+}
+@keyframes body {
+    0% {background-color:  rgb(203, 80, 214)}
+   20%{background-color:  rgb(118, 180, 204)}
+    40%{background-color:  rgb(152, 199, 187)}
+     60%{background-color:  rgb(128, 74, 199)}
+    80%{background-color:  rgb(202, 82, 118)}
+100%{background-color:  rgb(158, 111, 148)}
+      }
+
+      .item{
+        height: 100px;
+        width: 100px;
+        background: blanchedalmond;
+        color: white;
+        margin: 10px auto;
+        padding: 10px;
+        box-sizing: border-box;
+        transition: all 500ms ease; 
+        cursor: pointer;
+       }
+       #element-1:hover{
+        transform: scale(5);
+        transition: 5s;
+        background: rgb(118, 180, 204)
+    }
+    #element-2:hover{
+      
+        width: 400px;
+        height: 400px;
+        background: rgb(152, 199, 187);
+        animation: shake 100ms infinite;
+    }
+   
+    
+    @keyframes shake {
+        0% {
+            transform: translate(0,0);
+        }
+        50% {
+            transform: translate(2px,-3px)]
+        }
+        100% {
+            transform: translate(-3px,1px) 
+        }
+    }
+
+    #element-3:active{
+        transform: rotateY(360deg) ;
+        transition: 5s;
+        width: 400px;
+        height: 400px;
+        background: rgb(128, 74, 199);
+    }
+    #element-4:hover{
+    opacity: 0;
+    width: 400px;
+    height: 400px;
+    transition: 5s;
+    }
+    #element-5:hover{
+        transform: rotate(3600deg);
+        width: 400px;
+        height: 400px;
+        transition: 5s;
+        background:  rgb(202, 82, 118);
+        }
+        #element-6:hover{
+            width: 400px;
+            height: 400px;
+            transition: 5s;
+            background:  rgb(158, 111, 148);
+            animation: jump 500ms 1;
+        }
+        
+        @keyframes jump {
+            0% {
+                transform: translate(0, -100px);
+            }
+            80% {
+                transform: translate(0,0);
+            }
+            100% {
+                transform: translate(0,100px);
+            }
+        }
+    

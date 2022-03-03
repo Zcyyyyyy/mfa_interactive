@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(5, 5, 5)
+}
+p {
+    font-family: sans-serif;
+    color: rgb(204, 144, 212);
+    width: 45%;
+}
+.p2 {
+    font-family: serif;
+    color: rgb(144, 185, 212);
+    background-color: aquamarine;
+    width: 70%;
+    border: dotted rgb(144, 185, 212) 7px;
+}
+#sp {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(230, 174, 22);
+}
