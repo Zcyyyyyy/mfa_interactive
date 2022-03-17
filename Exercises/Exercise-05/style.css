@@ -1,0 +1,80 @@
+body{
+    background-color:  #d2f5f0;
+}
+.flex-container {
+    display: flex;
+    background-color: rgb(230, 210, 243);
+height: 190px;
+  
+  }
+#month{
+    background-color:#d2f5f0;
+    width: 50px;
+    height: 50px;
+    color: rgb(201, 111, 219);
+    margin-top: 60px;
+    margin-left: 830px;
+    font-size: 120px;
+    font-family: 'Rye', cursive;
+
+}
+.group1{
+    background-color: #d2f5f0;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 120px;
+    height: 80px;
+    border-radius: 30%;
+    font-family: 'Shizuru', cursive;
+    color: rgb(201, 111, 219);
+    align-self: center;
+}
+.flex-container2 {
+    display: flex;
+    background-color: rgb(230, 210, 243);
+    width: 760px;
+    margin-top: -120px;
+   
+  }
+  .group2{
+    background-color: #d2f5f0;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 90px;
+    height: 90px;
+    align-content: stretch;
+    border-radius: 30%;
+    font-family: 'Shizuru', cursive;
+    color: rgb(201, 111, 219);
+    align-self: center;
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 40px;
+}
+  .flex-container3 {
+    display: flex;
+    background-color: rgb(230, 210, 243);
+    width: 760px;
+
+  }
+  .flex-container4 {
+    display: flex;
+    background-color: rgb(230, 210, 243);
+    height: 190px;
+    flex-direction: row-reverse;
+
+  }
+  .group3{
+    background-color: #d2f5f0;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 120px;
+    height: 80px;
+    border-radius: 30%;
+    font-family: 'Fredericka the Great', cursive;
+    color: rgb(201, 111, 219);
+    align-self: center;
+}
