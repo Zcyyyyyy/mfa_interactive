@@ -4,6 +4,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 body{
     background-color: lightblue;
     background: linear-gradient(-45deg, #dfacf7, #f8a5c5, #bae6f7, #a5ffea);

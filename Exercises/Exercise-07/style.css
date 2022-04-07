@@ -1,0 +1,391 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #DADADA;
+}
+
+
+/* if you want to change the background of your canvas, do it here */
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: rgb(231, 213, 155);
+	position: relative;
+	border: solid black 5px;
+}
+
+
+/* this is where you can style the objects in your still life */
+#cat01 {
+    width: 60px;
+    height: 57px;
+	background-color: #F0E9DF;
+	filter:  drop-shadow(-1px 6px 4px #d6d2c3);
+    position: absolute;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+	top: 226px;
+    left: 243px;
+    z-index: 8;
+}
+
+#cat-eyes{
+	width: 5px;
+    height: 10px;
+	background-color: rgb(19, 18, 18);
+	border-radius: 100%;
+	position: absolute;
+	top: 246px;
+    left: 253px;
+	z-index: 9;
+
+}
+
+#cat-eyes2{
+	width: 5px;
+    height: 10px;
+	background-color: rgb(19, 18, 18);
+	border-radius: 100%;
+	position: absolute;
+	top: 246px;
+    left: 289px;
+	z-index: 9;
+
+}
+
+#cat-mouth{
+	width: 5px;
+	height: 5px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 10px solid pink;
+	border-radius: 80%;
+	position: absolute;
+	top: 263px;
+    left: 269px;
+	z-index: 9;
+
+}
+#tablecloth {
+    width: 794px;
+    height: 211px;
+    margin-top: 240px;
+    background: #CDC1B0;
+    background-image: linear-gradient(#B0A6D1,#E6D8C0);
+}
+
+#cat02 {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 29px solid transparent;
+	border-top: 25px solid #F0E9DF;
+	border-radius: 10%;
+    filter: drop-shadow(-5px 20px 6px #66636b);
+    position: absolute;
+	top: 266px;
+    left: 246px;
+    z-index: 1;
+}
+
+#cat03 {
+    width: 0;
+    height: 0;
+    border-left: 33px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 25px solid #F0E9DF;
+    filter: drop-shadow(3px 20px 6px #66636b);
+    position: absolute;
+	top: 266px;
+    left: 267px;
+    z-index: 1;
+}
+
+#cat04 {
+	width: 79px;
+    height: 66px;
+    background-color: #F0E9DF;
+    position: absolute;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    top: 219px;
+    left: 234px;
+    transform: skew(0deg);
+    z-index: 3;
+}
+
+
+#cat05 {
+	width: 50px;
+    height: 50px;
+  
+    background: #F0E9DF;
+	filter: drop-shadow(6px 98px 30px #66636b);
+	border-top: 50px ;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+    border-radius: 10%;
+    position: absolute;
+    top: 178px;
+    left: 251px;
+    z-index: 2;
+}
+
+#cat06 {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 30px solid #F0E9DF;
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    transform: skew(8deg);
+	top: 221px;
+    left: 243px;
+    z-index: 5;
+}
+
+
+
+#cat08 {
+	width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-left: 18px solid #31333D;
+    border-bottom: 7px solid transparent;
+    position: absolute;
+    top: 225px;
+    left: 247px;
+    z-index: 5;
+}
+
+#cat09 {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-right: 10px solid #31333D;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+	top: 225px;
+    left: 290px;
+    z-index: 7;
+}
+
+#catface {
+    position: absolute;
+    top: 243px;
+    left: 290px;
+    z-index: 1;
+}
+
+
+#box-top{
+	width: 85px;
+	height: 30px;
+	background: rgb(52, 52, 110);
+	position: absolute;
+	top: 230px;
+    left: 159px;
+	transform: skew(40deg);
+	z-index: 0;
+   
+}
+
+#box-side1{
+    width: 80px;
+    height: 20px;
+    background-color: #D4CAC6;
+    background-image: linear-gradient(#D4CAC6,#AFA693);
+    position: absolute;
+    top: 260px;
+    left: 170px;
+    box-shadow: 1px 5px 16px #66636b;
+}
+
+#box-side2{
+	width: 25px;
+	height: 20px;
+	background-color: #D4CAC6;
+	background-image: linear-gradient(#D4CAC6,#AFA693);
+	position: absolute;
+	top: 245px;
+    left: 146px;
+	transform: skew(-0.01turn, 51deg);
+}
+
+#candle01{
+    width: 140px;
+    height: 40px;
+    background: #99989e;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 40%;
+    top: 239px;
+    left: 272px;
+}
+
+#candle02 {
+    width: 140px;
+    height: 40px;
+    background: #99989e;
+    border-radius: 50%;
+    filter: drop-shadow(0px 10px 6px rgb(60, 60, 61));
+    position: absolute;
+    opacity: 60%;
+    top: 252px;
+    left: 273px;
+}
+
+
+#candle03 {
+    width: 140px;
+    height: 25px;
+    background: #A49885;
+    border-radius: 15%;
+    position: absolute;
+    opacity: 25%;
+	top: 257px;
+    left: 269px;
+}
+
+#candel04 {
+    width: 50px;
+    height: 105px;
+    background: #584391;
+    background-image: linear-gradient(#D4CAC6,#f1eecc);
+    border-radius: 15%;
+    position: absolute;
+    top: 154px;
+    left: 410px;
+}
+
+#ball01 {
+    width: 60px;
+    height: 60px;
+    background: #584391;
+    background-image: linear-gradient(to bottom right,#D4CAC6,#f1eecc);
+    border-radius: 50%;
+    position: absolute;
+	top: 169px;
+	left: 276px;
+	z-index: 1;
+}
+
+#ball02 {
+	width: 55px;
+    height: 55px;
+    background: #584391;
+    background-image: linear-gradient(to bottom right,#D4CAC6,#f1eecc);
+    border-radius: 50%;
+    position: absolute;
+    top: 169px;
+    left: 356px;
+    z-index: 1;
+}
+
+
+#ball03 {
+    width: 50px;
+    height: 50px;
+    background: #584391;
+    background-image: linear-gradient(to bottom right,#D4CAC6,#f1eecc);
+    border-radius: 50%;
+    position: absolute;
+    top: 171px;
+    left: 320px;
+}
+
+#ball04 {
+	width: 60px;
+    height: 60px;
+    background: #584391;
+    background-image: linear-gradient(to bottom right,#D4CAC6,#f1eecc);
+    border-radius: 50%;
+    position: absolute;
+    top: 208px;
+    left: 321px;
+    z-index: 2;
+}
+
+#ball05 {
+	width: 50px;
+    height: 50px;
+    background: #584391;
+    background-image: linear-gradient(to bottom right,#D4CAC6,#f1eecc);
+    border-radius: 50%;
+    position: absolute;
+    top: 209px;
+    left: 303px;
+    z-index: 0;
+}
+
+#ball06 {
+    width: 45px;
+    height: 45px;
+    background: #584391;
+    background-image: linear-gradient(to bottom right,#D4CAC6,#f1eecc);
+    border-radius: 50%;
+    position: absolute;
+	top: 213px;
+    left: 356px;
+    z-index: 0;
+}
+
+#ball07 {
+    width: 45px;
+    height: 45px;
+    background: #584391;
+    background-image: linear-gradient(to bottom right,#D4CAC6,#f1eecc);
+    border-radius: 50%;
+    position: absolute;
+	top: 192px;
+    left: 375px;
+    z-index: 0;
+}
+
+
+#fire {
+	width:20px;
+	height:30px;
+	position: absolute;
+	top:150px;
+	left:325px;
+	background:linear-gradient(-45deg, red, orange);
+	border-radius: 150px 150px 0px 150px;
+	transform:rotate(-135deg);
+	animation:.3s flame infinite;
+	filter:blur(10px);
+	position:relative;
+	box-shadow:20px 40px 90px #700;
+	border:25px solid rgb(252, 247, 247)23, 211, 211);
+	border-left-width:25px;
+	border-top-width:25px;
+	z-index: .5;
+}
+@keyframes flame{
+	0% {height:20px; width:30px;}
+	50% {height:25px; width:35px;}
+	100% {height:20px; width:30px;}
+  }
+	
+
+
+#container {
+    top: 130px;
+    left: 402px;
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    transform-origin: center bottom;
+    animation-name: flicker;
+    animation-duration: 3ms;
+    animation-delay: 200ms;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
