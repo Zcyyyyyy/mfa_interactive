@@ -37,7 +37,7 @@ textarea {
   background: url(../img/bg1.png);
   background-size: cover;
   min-height: 100vh;
-  animation: blur 2s ease-in-out;
+  animation: blur 3s ease-in-out;
 }
 @keyframes blur {
   0% { filter: blur(15px);}
@@ -47,19 +47,19 @@ textarea {
   background: url(../img/bg3.png);
   background-size: cover;
   min-height: 100vh;
-  animation: blur 1s ease-in-out;
+  animation: blur 2s ease-in-out;
 }
 .north-bg {
   background: url(../img/bg4.png);
   background-size: cover;
   min-height: 100vh;
-  animation: blur 1s ease-in-out;
+  animation: blur 2s ease-in-out;
 }
 .west-bg {
   background: url(../img/bg5.png);
   background-size: cover;
   min-height: 100vh;
-  animation: blur 1s ease-in-out;
+  animation: blur 2s ease-in-out;
 }
 .show {
   display: block !important;
