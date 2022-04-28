@@ -116,6 +116,7 @@ img {
   background-color: rgba(240, 224, 188, 0.7);
   padding: 20px;
   width: 600px;
+  z-index: 1;
 }
 .index .t1-text .text {
   border: 1px solid #000;
@@ -137,19 +138,19 @@ img {
 }
 .index .img2 {
   position: absolute;
-  left: -10%;
+  left: -15%;
   bottom: -6%;
   width: 800px;
 }
 .index .img2-2 {
   position: absolute;
-  right: 5%;
+  right: 3%;
   top: 5%;
   width: 600px;
 }
 .index .img3 {
   position: absolute;
-  right: -5%;
+  right: -9%;
   bottom: 0%;
   width: 800px;
 }
