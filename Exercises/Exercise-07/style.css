@@ -362,7 +362,7 @@ body {
 	filter:blur(10px);
 	position:relative;
 	box-shadow:20px 40px 90px #700;
-	border:25px solid rgb(252, 247, 247)23, 211, 211);
+	border:25px solid rgb(252, 247, 247)23, 211, 211;
 	border-left-width:25px;
 	border-top-width:25px;
 	z-index: .5;

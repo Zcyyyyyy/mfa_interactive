@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Western Mountains</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body class="west-bg">
+	<audio controls autoplay>
+		<source src="music/westmusic.mp3" type="audio/ogg">
+	</audio>
+	<div class="west">
+
+		<!--bg2-->
+		<img src="img/bg2.png" id="bg2" />
+
+
+		<!--t4-->
+		<div class="t4">
+			<img src="img/t4.png" />
+		</div>
+
+
+
+		<!--t4-text-->
+		<div class="t4-text">
+			<div class="text">
+				<div class="title">
+					Western Mountains
+				</div>
+				<div class="desc">
+					Four mountain ranges comprise the total of the Western Mountains. The third range stretched from Chongwu shan all
+					the way to Yiwang shan, a total of 6,744 li, with twenty-three mountain peaks. All the immortal animals on these
+					mountains, male and female, were goatlike creatures with scowling faces. Worshippers of these legendary beasts
+					were required to bury a lucky piece of patterned jade in the ground and make offerings of sinica rice. Ancient
+					peoples burned offerings to heavenly deities, sending them skyward in puffs of smoke. If they celebrated earthly
+					or mountain deities, they buried their offerings in the ground. The same logic applied to river deities, whose
+					offerings were flung into the water.
+				</div>
+			</div>
+		</div>
+
+
+
+		<!--img6-->
+		<div class="img6">
+			<img src="img/img6.png" />
+		</div>
+		<!--img7-->
+		<div class="img7">
+			<img src="img/img7.png" />
+		</div>
+		<!--img8-->
+		<div class="img8">
+			<img src="img/img8.png" />
+		</div>
+
+
+		<!--img2-2-->
+		<div class="img2-2">
+			<img src="img/img2-2.png" />
+		</div>
+
+
+
+		<!--m3-->
+		<div class="m3">
+			<img src="img/m3.png" />
+		</div>
+		<!--m4-->
+		<div class="m4">
+			<img src="img/m4.png" />
+		</div>
+
+
+		<!--m1-text-->
+		<div class="m3-text">
+			Fuyu shan was also the nesting place for a marvelous bird
+			known as the Min. Its red beak and clusters of red feathers on
+			the tip of its tail were all that distinguished it from the common
+			kingfisher. People fortunate enough to have caught one and
+			kept it at home were assured of fire protection, a boon for those
+			ancients who lived in houses made mainly of wood. Its call,
+			either in the wild or in cages, has never been described, though
+			unlike the thin whistle of a kingfisher, it was likely something
+			louder and more urgent to warn of fire. Killing and eating a
+			Min was taboo for obvious reasons.
+		</div>
+
+		<!--m2-text-->
+		<div class="m4-text">
+			Snakes have no feet; they slither. The ancient Feiwei, however,
+			had six feet. They were augmented by four small wings
+			clustered just behind its ferocious head. How the strange
+			apparition moved remains a mystery, but at each miraculous
+			advent on Taihua shan, now known as Yuehua shan, severe
+			drought fell upon the land below.
+		</div>
+
+
+		<!--back-->
+		<div class="back">
+			<a href="index.html"><img src="img/back.png" /></a>
+		</div>
+
+
+	</div>
+
+	<script src="js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+
+		$(function () {
+
+			$('.t4').on('click', function () {
+				$(this).hide();
+				$('.t4-text').show();
+			});
+			$('.t4-text').on('click', function () {
+				$(this).hide();
+				$('.t4').show();
+			});
+
+			$('.img6').on('click', function () {
+				$('.m3').fadeIn(1000);
+				$('.m4').fadeIn(1000);
+			});
+
+
+			$('.m3').on('click', function () {
+				$(".m3-text").stop().toggle('slow');
+			});
+
+			$('.m4').on('click', function () {
+				$(".m4-text").stop().toggle('slow');
+			});
+
+
+		});
+
+	</script>
+
+</body>
+
+</html>

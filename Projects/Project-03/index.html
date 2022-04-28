@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body class="index-bg">
+	<audio controls autoplay>
+		<source src="music/mainmusic.mp3" type="audio/ogg">
+	</audio>
+
+	<div class="index">
+
+		<!--bg2-->
+		<img src="img/bg2.png" id="bg2" />
+
+		<!--t1-->
+		<div class="t1">
+			<img src="img/t1.png" />
+		</div>
+
+
+		<!--t1-text-->
+		<div class="t1-text">
+
+
+
+			<div class="text">
+				<div class="title">
+					Classic of Mountains and Seas
+				</div>
+				<div class="desc">
+					Shan Hai Jing is an important piece of Chinese literature. It is considered one of the treasures of Chinese
+					culture. Its Chinese name literally translates to “Collection of the Mountain and the Seas”. The text is both a
+					cultural and geographical account of China before the Qin dynasty. It also contains Chinese mythology. All in all,
+					the book talks about more than 550 mountains and 300 seas. It is comprised of 31,000 words more or less. The
+					entire collection is divided into 18 selections. This Chinese Classical Literature is said to be at least 2,200
+					years old.
+				</div>
+			</div>
+		</div>
+
+
+		<!--img1-->
+		<div class="img1">
+			<a href="north.html"><img src="img/img1.png" /></a>
+		</div>
+
+		<!--img2-->
+		<div class="img2">
+			<a href="west.html"><img src="img/img2.png" /></a>
+		</div>
+
+		<!--img2-2-->
+		<div class="img2-2">
+			<img src="img/img2-2.png" />
+		</div>
+
+		<!--img3-->
+		<div class="img3">
+			<a href="south.html"><img src="img/img3.png" /></a>
+		</div>
+
+
+
+	</div>
+
+	<script src="js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+
+		$(function () {
+
+			$('.t1').on('click', function () {
+				$(this).hide();
+				$('.t1-text').show();
+			});
+			$('.t1-text').on('click', function () {
+				$(this).hide();
+				$('.t1').show();
+			});
+
+
+		});
+
+	</script>
+
+</body>
+
+</html>

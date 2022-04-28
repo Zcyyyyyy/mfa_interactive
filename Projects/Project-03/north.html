@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Northern Mountains</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body class="north-bg">
+	<audio controls autoplay>
+		<source src="music/northmusic.mp3" type="audio/ogg">
+	</audio>
+
+	<div class="north">
+
+		<!--bg2-->
+		<img src="img/bg2.png" id="bg2" />
+
+
+		<!--t3-->
+		<div class="t3">
+			<img src="img/t3.png" />
+		</div>
+
+
+
+		<!--t3-text-->
+		<div class="t3-text">
+			<div class="text">
+				<div class="title">
+					Northern Mountains
+				</div>
+				<div class="desc">
+					Dragons have assumed many animal forms over the
+					millennia, residing in mountains and streams. They have
+					been deified and occasionally demonized, though they are
+					widely revered as providers of protection and symbols of
+					plenty in China. Those that lived in one of three mystical
+					ranges of the Southern Mountains roamed an area
+					containing fourteen mountains that stretched 6,500 li, from
+					Lushan all the way to Nanli shan. Unlike denizens of the
+					other two ranges, which had dragon heads atop bird bodies
+					or bird heads on dragon bodies, these mountain gods had
+					footed serpentine bodies and faces of a somewhat hideous
+					nature. Worship of the human-faced dragons required
+					the sacrifice of a white dog and an offering of the finest
+					polished rice.
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+		<!--img1-->
+		<div class="img1">
+			<img src="img/img1.png" />
+		</div>
+
+		<!--img4-->
+		<div class="img4">
+			<img src="img/img4.png" />
+		</div>
+
+		<!--img5-->
+		<!--<div class="img5">
+				<img src="img/img5.png"/>
+			</div>-->
+
+		<!--m1-->
+		<div class="m1">
+			<img src="img/m1.png" />
+		</div>
+		<!--m2-->
+		<div class="m2">
+			<img src="img/m2.png" />
+		</div>
+
+
+		<!--m1-text-->
+		<div class="m1-text">
+			Long ago, in the remote past, a peak called Beiyue shan existed in what is now the Dorbod Banner region of Inner
+			Mongolia. It was where the Zhuhuai River began its flow westward to the Qi River, waters that were hospitable to a
+			strange fish called the Yi, with a fish body and the head of a dog. The Yi was eagerly sought by fishermen, who
+			followed its whimpering cry. Its flesh was used to treat infantile convulsions and mental illness.
+		</div>
+
+		<!--m2-text-->
+		<div class="m2-text">
+			Bianchun shan, a mountain three hundred ninety li north of Danxun shan, was lushly covered with native vegetation
+			and fruit, including wild onions and mountain peaches. It was also home to an entertaining, almost comical animal
+			called the Youyan, Adept at bounding from branch to branch high in the forest canopy, it had the skills and
+			appearance of a monkey, though its fur was striped top and bottom and end to end. It called its own name from
+			morning to night, and seemed alway to be smiling or laughing. It loved to play tricks on humans, feigning death or
+			sleep, but its audience was never fooled into letting it draw near.
+		</div>
+
+
+		<!--back-->
+		<div class="back">
+			<a href="index.html"><img src="img/back.png" /></a>
+		</div>
+
+
+	</div>
+
+	<script src="js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+
+		$(function () {
+
+			$('.t3').on('click', function () {
+				$(this).hide();
+				$('.t3-text').show();
+			});
+			$('.t3-text').on('click', function () {
+				$(this).hide();
+				$('.t3').show();
+			});
+
+
+			$('.img1').on('click', function () {
+				$('.m1').fadeIn(1000);
+				$('.m2').fadeIn(1000);
+			});
+
+
+
+			$('.m1').on('click', function () {
+				$(".m1-text").toggle('slow');
+			});
+
+			$('.m2').on('click', function () {
+				$(".m2-text").stop().toggle('slow');
+			});
+
+
+		});
+
+	</script>
+
+</body>
+
+</html>
