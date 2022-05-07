@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: url(../img/bg.jpg);
+  background-size: cover;
+}
+h1{
+  position:relative;
+left:10px;
+  color: rgb(40, 48, 42);
+}
+.h1{
+ 
+  height: 50px;
+  width: 480px;
+  background-color: rgb(156, 184, 168);
+}
+.basketball {
+  width: 80px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: grab;
+  animation: scale 0.5s infinite;
+  animation-timing-function: ease;
+  animation-direction: alternate;
+}
+.baseball {
+  width: 80px;
+  position: absolute;
+  left: 20%;
+  top: 57%;
+  transform: translate(-50%, -50%);
+  cursor: grab;
+ 
+}
+
+.football {
+  width: 80px;
+  position: absolute;
+  left: 60%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  cursor: grab;
+ 
+}
+.softball {
+  width: 80px;
+  position: absolute;
+  left: 90%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  cursor: grab;
+ 
+}
+.bedminton {
+  width: 80px;
+  position: absolute;
+  left: 44%;
+  top: 32%;
+  transform: translate(-50%, -50%);
+  cursor: grab;
+ 
+}
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
