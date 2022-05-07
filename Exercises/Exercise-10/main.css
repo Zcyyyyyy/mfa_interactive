@@ -1,0 +1,57 @@
+body {
+	background: black;	
+	color: white;
+	font-family: monaco;
+
+}
+
+:root{
+	--second:  1s;
+	--minute: calc(var(--second)*60);
+	--hour: calc(var(--minute)*60);
+	--halfday:  calc(var(--hour)*12);
+	--setTimeHour:  2;
+	--setTimeMinute: 15;
+	--timeShiftHour:  calc(var(--setTimeHour)*var(--hour));
+	--timeShiftMinute: calc(var(--setTimeMinute)*var(--minute));
+}
+
+@keyframes rotate{
+from{transform: rotate(0);}
+to{transform: rotate(1turn);}
+}
+
+.bs {
+  position:absolute;
+  width:650px;
+left:calc(50vw - 325px);
+  bottom:calc(50vh - 325px);
+  animation: rotate steps(60) var(--minute) infinite;
+}
+
+
+.ms {
+  position:absolute;
+  width:450px;
+left:calc(50vw - 225px);
+  bottom:calc(50vh - 225px);
+  animation: rotate steps(60) var(--hour) infinite;
+	animation-delay: calc(var(--timeShiftMinute)*-1);
+
+}
+
+
+
+.ss {
+  position:absolute;
+  width:300px;
+  
+  left:calc(50vw - 150px);
+  bottom:calc(50vh - 150px);
+  animation:  rotate steps(12) var(--halfday) infinite;
+	animation-delay: calc((var(--timeShiftHour) + var(--timeShiftMinute)) * -1);
+  
+  }
+
+
+
